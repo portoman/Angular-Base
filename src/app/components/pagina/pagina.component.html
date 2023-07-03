@@ -1,1 +1,8 @@
-<p>pagina works!</p>
+<h2 class="subheader">Página</h2>
+<div *ngIf="nombre && apellido">
+  <p>El nombre es: {{ nombre }}</p>
+  <p>El apellido es: {{ apellido }}</p>
+</div>
+<div *ngIf="!nombre && !apellido">
+  <p>Los parámetros no existen</p>
+</div>

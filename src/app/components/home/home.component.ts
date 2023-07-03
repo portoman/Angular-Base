@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  public title: string;
+
+  constructor(){
+    this.title="Últimos articulos"
+  }
 }
